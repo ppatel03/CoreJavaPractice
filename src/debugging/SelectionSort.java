@@ -22,7 +22,7 @@ public class SelectionSort {
 					max = a[j];
 					maxPosition = j;
 				}				
-			}
+			} 
 			a[maxPosition]= a[i];
 			a[i] = max;
 		}
